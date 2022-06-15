@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El Destino Feliz"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre:"
+            />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad:"
+            />
+
+        <EditText
+            android:id="@+id/txtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero de boleto"
+            />
+        <TextView
+            android:text="@string/destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDestino"
+            android:textSize="20dp"
+            />
+        <Spinner
+            android:id="@+id/spnDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></Spinner>
+        <TextView
+            android:text="@string/tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTipoViaje"
+            android:textSize="20dp"
+            />
+        <Spinner
+            android:id="@+id/spnTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio: "
+            />
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha:"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblSubTotal"
+            android:autoSizeTextType="uniform"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblImpuesto"
+            android:autoSizeTextType="uniform"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDescuento"
+            android:autoSizeTextType="uniform"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTotal"
+            android:autoSizeTextType="uniform"
+            android:textSize="17dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_height="40dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="40dp"
+                android:background="#288BA8"
+                android:id="@+id/btnMostrar"
+                android:text="Agregar viaje"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_height="40dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="30dp"
+                android:background="#288BA8"
+                android:id="@+id/btnLimpiar"
+                android:text="Limpiar"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="Salir"
+            android:background="#E83845"
+            android:id="@+id/btnSalir"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

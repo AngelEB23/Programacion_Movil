@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DestinoFeliz</string>
+    <string name="nombre">Nombre:</string>
+    <string name="idBoleto">Numero de boleto:</string>
+    <string name="destino">Destino:</string>
+    <string name="tipo">Tipo de viaje:</string>
+    <string name="precio">Precio:</string>
+    <string name="fecha">Fecha de viaje:</string>
+    <string name="edad">Edad:</string>
+    <string-array name="destinosViaje">
+        <item>Mazatlán</item>
+        <item>Culiacan</item>
+        <item>Cosala</item>
+        <item>Ciudad de México</item>
+        <item>Guadalajara</item>
+        <item>Mocorito</item>
+        <item>Monterrey</item>
+        <item>Los mochis</item>
+        <item>Guamuchil</item>
+        <item>Tijuana</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>Sencillo</item>
+        <item>Doble</item>
+    </string-array>
+</resources>
