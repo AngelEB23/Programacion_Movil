@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="320dp">
+        and
+        <TextView
+            android:id="@+id/numeroCotL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numeroCot"
+            android:textSize="17dp"
+            />
+
+
+        <EditText
+            android:id="@+id/numeroCotOb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:id="@+id/descriL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/descri"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/descriOb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/precioL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/precio"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/precioOb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/porcentajeL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/porcentaje"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/porcentajeOb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/plazoL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/plazo"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/plazoOb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pagoIl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/pagoI"
+            android:textSize="17dp"/>
+
+
+        <TextView
+            android:id="@+id/totalA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/totalFin"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/pagoMen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="@string/pagoMensual"
+            android:textSize="17dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMostrar"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-35dp"
+            android:text="Cotizar">
+
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLimpiar"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-95dp"
+            android:text="Limpiar">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

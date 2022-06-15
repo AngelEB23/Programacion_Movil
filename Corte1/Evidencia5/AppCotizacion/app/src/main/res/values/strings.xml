@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cotizacion</string>
+    <string name="numeroCot">Numero de cotizacion:</string>
+    <string name="descri">Descripcion:</string>
+    <string name="precio">Precio:</string>
+    <string name="porcentaje">Porcentaje del pago inicial:</string>
+    <string name="plazo">Plazo:</string>
+    <string name="pagoI">Pago inicial:</string>
+    <string name="totalFin">Total a fin:</string>
+    <string name="pagoMensual">Pago mensual:</string>
+</resources>
