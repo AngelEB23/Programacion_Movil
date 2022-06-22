@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Examen01Recuperacion</string>
+    <string name="Titulo">Registro de Entrada</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="Unidad">Unidad de medida</string>
+    <string name="PrecioV">Precio de venta</string>
+    <string name="PrecioC">Precio de compra</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Producto">Producto:</string>
+
+</resources>
